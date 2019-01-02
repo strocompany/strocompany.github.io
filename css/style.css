@@ -2,13 +2,32 @@
 /*----- CSS Styles -----*/
 /*---------------------*/
 
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+@font-face {
+  font-family: "GT Walsheim", sans-serif;
+  src: url("../fonts/GT-Walsheim.ttf") format("ttf");
+}
+
+
+.introLarge {
+  font-family: "Oswald", sans-serif;
+  color: orange;
+  padding-left: 70px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+hr {
+  border-width: 10px;
+  width: 120px;
+  border-radius: 5px;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  font-size: 150px
+  font-size: 120px;
+  font-style: oblique;
+}
+
+h5 {
+  font-size: 35px;
+  transform: skewX(10deg);
 }
