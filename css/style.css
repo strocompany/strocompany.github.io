@@ -2,32 +2,38 @@
 /*----- CSS Styles -----*/
 /*---------------------*/
 
-@font-face {
-  font-family: "GT Walsheim", sans-serif;
-  src: url("../fonts/GT-Walsheim.ttf") format("ttf");
+body {
+  background-image: url("../images/waves-overlay.jpg");
+  background-position: center;
 }
 
-
 .introLarge {
-  font-family: "Oswald", sans-serif;
-  color: orange;
+  font-family: "Poppins", "Oswald", sans-serif;
+  color: white;
   padding-left: 70px;
   text-align: center;
   padding-top: 150px;
+}
+
+#companyname {
+  font-size: 120px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#slogan {
+  font-size: 35px;
+  transform: skewX(10deg);
+  padding-bottom: 10px;
 }
 
 hr {
   border-width: 10px;
   width: 120px;
   border-radius: 5px;
+  border-color: white;
 }
 
-h1 {
-  font-size: 120px;
-  font-style: oblique;
-}
-
-h5 {
-  font-size: 35px;
-  transform: skewX(10deg);
+.button {
+  font-size: 25px;
 }
