@@ -36,4 +36,12 @@ hr {
 
 .button {
   font-size: 25px;
+  border-radius: 12px;
+  border-color: white;
+  background-color: transparent;
+}
+
+a {
+  color: white;
+  font-weight: bold;
 }
