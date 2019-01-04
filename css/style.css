@@ -41,7 +41,11 @@ hr {
   border: 4px solid white;
 }
 
-#landingLink {
+.buttonsLanding {
   color: white;
   font-weight: bold;
+}
+
+.buttonsLanding:hover {
+  color: white;
 }
