@@ -5,13 +5,20 @@
 body {
   background-image: url("../images/waves-overlay.jpg");
   background-position: center;
+  font-family: "Poppins", "Oswald", sans-serif;
+}
+
+#stroLogo {
+  font-size: 50px;
+  padding-top: 7px;
 }
 
 .introLarge {
-  font-family: "Poppins", "Oswald", sans-serif;
   color: white;
   text-align: center;
-  padding-top: 130px;
+  margin-top: 150px;
+  padding-left: 30px;
+  display: inline-=block;
 }
 
 #companyname {
@@ -48,4 +55,10 @@ hr {
 
 .buttonsLanding:hover {
   color: white;
+}
+
+#midButton {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
