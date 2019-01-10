@@ -2,7 +2,7 @@
 /*----- CSS Styles -----*/
 /*---------------------*/
 
-body {
+body.home {
   background-image: url("../images/waves-overlay.jpg");
   background-position: center;
   font-family: "Poppins", "Oswald", sans-serif;
@@ -17,8 +17,6 @@ body {
   color: white;
   text-align: center;
   padding-top: 175px;
-  padding-left: 30px;
-  display: inline-=block;
 }
 
 #companyname {
@@ -31,7 +29,6 @@ body {
   font-size: 35px;
   padding-bottom: 10px;
   transform: skewX(8deg);
-  animation: fade;
 }
 
 hr {
