@@ -1,7 +1,7 @@
 /*-----------------------*/
 /*----- CSS Styles -----*/
 /*---------------------*/
-
+ 
 body {
   background: url("../images/waves-overlay.jpg");
   background-position: center;
@@ -51,7 +51,7 @@ hr {
 
 .buttonsLanding {
   color: white;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .buttonsLanding:hover {
