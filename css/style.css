@@ -3,7 +3,7 @@
 /*---------------------*/
 
 body {
-  background-image: url("../images/waves-overlay.jpg");
+  background: url("../images/waves-overlay.jpg");
   background-position: center;
   font-family: "Poppins", "Oswald", sans-serif;
 }
@@ -51,7 +51,7 @@ hr {
 
 .buttonsLanding {
   color: white;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .buttonsLanding:hover {
