@@ -1,15 +1,11 @@
 /*-----------------------*/
 /*----- CSS Styles -----*/
 /*---------------------*/
- 
-body {
-  background: url("../images/waves-overlay.jpg");
-  background-position: center;
-  font-family: "Poppins", "Oswald", sans-serif;
-}
 
-.changeColor {
-  background-color: white;
+body {
+  font-family: "Poppins", "Oswald", sans-serif;
+  color: white;
+  text-align: center;
 }
 
 #stroLogo {
@@ -17,11 +13,18 @@ body {
   padding-top: 7px;
 }
 
-.introLarge {
-  color: white;
-  text-align: center;
+.landingScreen {
+  background: url("../images/waves-overlay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.landingContent {
   padding-top: 175px;
 }
+
 
 #companyname {
   font-size: 120px;
