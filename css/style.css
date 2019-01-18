@@ -8,28 +8,30 @@ body {
   text-align: center;
 }
 
-#stroLogo {
-  font-size: 50px;
-  padding-top: 7px;
-}
-
-.landingScreen {
-  background: url("../images/waves-overlay.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
-}
-
-.landingContent {
-  position: fixed;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, 0);
+.panelParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
   color: white;
 }
 
-#companyname {
+.panelChild {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+
+#landingScreen {
+  position: fixed;
+  padding-top: 200px;
+  background-image: url('../images/waves-overlay.jpg');
+  background-position: center;
+  z-index: -1000;
+}
+
+#companyName {
   font-size: 120px;
   font-style: italic;
   font-weight: bold;
@@ -78,6 +80,18 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.aboutUs {
-  background-color: pink;
+#aboutUs {
+  margin-top: 100%;
+  background-color: white;
+}
+
+.titleContent {
+  color: #73C2FB;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.textContent {
+  color: #73C2FB;
+  font-size: 25px;
 }
