@@ -3,42 +3,59 @@
 /*---------------------*/
 
 body {
-  background-image: url("../images/waves-overlay.jpg");
-  background-position: center;
   font-family: "Poppins", "Oswald", sans-serif;
-}
-
-#stroLogo {
-  font-size: 50px;
-  padding-top: 7px;
-}
-
-.introLarge {
   color: white;
   text-align: center;
-  padding-top: 175px;
-  padding-left: 30px;
-  display: inline-=block;
 }
 
-#companyname {
+h4 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+label {
+  color: #6AC9E5;
+}
+.panelsParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.panelsChild {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+#pageBackground {
+  background-image: url("../images/waves-overlay.jpg");
+  background-position: center;
+}
+
+.landingContent {
+  position: relative;
+  top: 25%;
+}
+
+#landingTitle {
   font-size: 120px;
   font-style: italic;
   font-weight: bold;
 }
 
-#slogan {
+#landingSplit {
+  border-width: 12px;
+  width: 10%;
+  border-radius: 5px;
+  border-color: white;
+}
+
+#landingSlogan {
   font-size: 35px;
   padding-bottom: 10px;
   transform: skewX(8deg);
-  animation: fade;
-}
-
-hr {
-  border-width: 10px;
-  width: 120px;
-  border-radius: 5px;
-  border-color: white;
 }
 
 .button {
@@ -69,4 +86,98 @@ a:hover {
 
 .button:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.leftSide, .rightSide {
+  height: 100vh;
+  widht: 100%
+}
+
+.rightSide {
+  padding-top: 5%;
+}
+
+.leftSide {
+  padding-top: 5%;
+}
+
+.contentHeading {
+  color: #6AC9E5;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.contentInfo {
+  color: #6AC9E5;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 30px;
+}
+
+.panelImage {
+  height: 90%;
+  width: 60%;
+  border: 4px solid #6AC9E5;
+  border-radius: 4px;
+}
+
+#ourProducts {
+  background: #6AC9E5;
+}
+
+#rightImage {
+  border: 4px solid white;
+}
+
+#rightContent {
+  color: white;
+}
+
+.bulletPoints {
+  display: inline-flex;
+}
+
+.fadeContent {
+  opacity: 0;
+}
+
+.largeField {
+  background: rgb(190,190,190, 0.4);
+  border-radius: 8px;
+  border: 8px solid transparent;
+  width: 60%;
+}
+
+.smallField {
+  background: rgb(190,190,190, 0.4);
+  border-radius: 8px;
+  border: 8px solid transparent;
+  width: 30%;
+}
+
+#contactForm {
+  padding-top: 10%;
+  align-items: center;
+}
+
+#submitButton {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #6AC9E5;
+  color: #6AC9E5;
+  font-weight: bold;
+}
+
+.panel-footer {
+  background-color: #6AC9E5;
+}
+
+#footerArrow {
+  padding-top: 0.5%;
+  width: 2%;
+  height: 4%;
 }

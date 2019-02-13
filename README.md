@@ -1,5 +1,7 @@
 # strocompany.github.io
 
-This is the code for stro's official website: (https://strocompany.github.io)
+company website under development: https://strocompany.github.io
 
-Website designed and created by: @karmdesai
+created by @karmdesai for @strocompany
+
+
