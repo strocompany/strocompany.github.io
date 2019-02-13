@@ -4,50 +4,50 @@
 
 body {
   font-family: "Poppins", "Oswald", sans-serif;
-  color: blue;
+  color: white;
   text-align: center;
 }
 
-.panelParent {
+.panelsParent {
   position: absolute;
   height: 100%;
   width: 100%;
-  color: white;
 }
 
-.panelChild {
+.panelsChild {
   position: relative;
   height: 100%;
   min-height: 100%;
   width: 100%;
-  z-index: 1;
 }
 
-#landingScreen {
-  position: fixed;
-  padding-top: 200px;
-  background-image: url('../images/waves-overlay.jpg');
+#pageBackground {
+  background-image: url("../images/waves-overlay.jpg");
   background-position: center;
-  z-index: -1;
 }
 
-#companyName {
+.landingContent {
+  position: relative;
+  top: 25%;
+}
+
+#landingTitle {
   font-size: 120px;
   font-style: italic;
   font-weight: bold;
 }
 
-#slogan {
+#landingSplit {
+  border-width: 12px;
+  width: 10%;
+  border-radius: 5px;
+  border-color: white;
+}
+
+#landingSlogan {
   font-size: 35px;
   padding-bottom: 10px;
   transform: skewX(8deg);
-}
-
-hr {
-  border-width: 10px;
-  width: 120px;
-  border-radius: 5px;
-  border-color: white;
 }
 
 .button {
@@ -80,23 +80,30 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-#aboutUs {
-  margin-top: 100%;
-  background-color: white;
+.splitPage {
+  height: 100%;
+  width: 50%;
+  top: 0;
+  padding-top: 20px;
+  position: relative;
 }
 
-.titleContent {
-  color: #73C2FB;
-  font-size: 100px;
+.leftSide {
+  left: 0;
+}
+
+.rightSide {
+  right: 0;
+}
+
+.contentHeading {
+  color: #6AC9E5;
   font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 7%;
 }
 
-.textContent {
-  color: #73C2FB;
-  font-size: 25px;
-}
-
-#products {
-  margin-top: 100%;
-  background-color: white;
+#ourProducts {
+  background: #E8E8E8;
 }

@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS and other Stylesheets -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Load Scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scrollDown.js"></script>
 
     <!-- Embed Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:500,600" rel="stylesheet">
@@ -20,59 +24,45 @@
   </head>
   <body>
 
-    <!-- The Contents of The Landing Screen -->
-    <div class="panelParent">
-      <div id="landingScreen" class="panelChild">
-        <h1 id="companyName">stro</h1>
-        <hr>
-        <h5 id="slogan">the straw, redesigned.</h5>
+    <!-- Landing Screen -->
+    <div class="panelsParent">
+      <div id="pageBackground" class="panelsChild">
+        <div class="landingContent container">
+          <h1 id="landingTitle">stro</h1>
+          <hr id="landingSplit">
+          <h5 id="landingSlogan">the straw, redesigned.</h5>
 
-        <!-- Three Buttons that Link to the Other Pages -->
-        <button type="button" class="button">
-          <a class="buttonsLanding" href="#aboutUs">about us</a>
-        </button>
-
-        <span id="midButton">
+          <!-- Three Buttons that Link to the Other Pages -->
           <button type="button" class="button">
-            <a class="buttonsLanding" href="#">products</a>
+            <a class="buttonsLanding" href="#aboutUs">about us</a>
           </button>
-        </span>
 
-        <button type="button" class="button">
-          <a class="buttonsLanding" href="#">contact</a>
-        </button>
+          <span id="midButton">
+            <button type="button" class="button">
+              <a class="buttonsLanding" href="#ourProducts">products</a>
+            </button>
+          </span>
+
+          <button type="button" class="button">
+            <a class="buttonsLanding" href="#contactUs">contact</a>
+          </button>
+        </div>
       </div>
 
-    <!-- Separate The Rest of The Page -->
-      <div id="aboutUs" class="panelChild">
-        <h1 class="titleContent">About Us</h1>
-        <hr>
-        <p class="textContent"><span>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vitae leo eget tellus consequat accumsan ut ac
-          lacus. In congue consequat facilisis. Morbi arcu diam, gravida
-          lobortis tempor in, pulvinar at turpis. Morbi ultricies quam a
-          imperdiet aliquam. Sed luctus, erat et consequat tristique, neque
-          orci auctor magna, vel iaculis magna risus in est. Pellentesque
-          pharetra urna et mauris euismod commodo. Suspendisse potenti. Nam
-          augue tortor, tempor porta tortor sit amet, imperdiet dapibus turpis.
-          Pellentesque laoreet tempus lacus. Nullam sagittis mauris mi, at
-          aliquet nunc lacinia ut.</span></p>
+      <div id="aboutUs" class="splitPage leftSide">
+        <h1 class="contentHeading">About Us</h1>
       </div>
-      <div id="products" class="panelChild">
-        <h1 class="titleContent">Products</h1>
-        <hr>
-        <p class="textContent"><span>Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Nam vitae leo eget tellus consequat accumsan ut ac
-          lacus. In congue consequat facilisis. Morbi arcu diam, gravida
-          lobortis tempor in, pulvinar at turpis. Morbi ultricies quam a
-          imperdiet aliquam. Sed luctus, erat et consequat tristique, neque
-          orci auctor magna, vel iaculis magna risus in est. Pellentesque
-          pharetra urna et mauris euismod commodo. Suspendisse potenti. Nam
-          augue tortor, tempor porta tortor sit amet, imperdiet dapibus turpis.
-          Pellentesque laoreet tempus lacus. Nullam sagittis mauris mi, at
-          aliquet nunc lacinia ut.</span></p>
+      <div class="splitPage rightSide">
+        <img src="../images/stro-logo.jpg" alt="Stro">
+      </div>
+
+      <div id="ourProducts" class="panelsChild">
+      </div>
+
+      <div id="contactUs" class="panelsChild">
       </div>
     </div>
+
 
   </body>
 </html>
