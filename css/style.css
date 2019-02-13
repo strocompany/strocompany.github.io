@@ -171,3 +171,13 @@ a:hover {
   color: #6AC9E5;
   font-weight: bold;
 }
+
+.panel-footer {
+  background-color: #6AC9E5;
+}
+
+#footerArrow {
+  padding-top: 0.5%;
+  width: 2%;
+  height: 4%;
+}
