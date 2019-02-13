@@ -145,14 +145,14 @@ a:hover {
 }
 
 .largeField {
-  background: rgb(190,190,190, 0.2);
+  background: rgb(190,190,190, 0.4);
   border-radius: 8px;
   border: 8px solid transparent;
   width: 60%;
 }
 
 .smallField {
-  background: rgb(190,190,190, 0.2);
+  background: rgb(190,190,190, 0.4);
   border-radius: 8px;
   border: 8px solid transparent;
   width: 30%;
