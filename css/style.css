@@ -9,13 +9,14 @@ body {
 }
 
 h4 {
-  font-size: 35px;
+  font-size: 2.5em;
   font-weight: bold;
 }
 
 label {
   color: #6AC9E5;
 }
+
 .panelsParent {
   position: absolute;
   height: 100%;
@@ -40,29 +41,29 @@ label {
 }
 
 #landingTitle {
-  font-size: 120px;
+  font-size: 8em;
   font-style: italic;
   font-weight: bold;
 }
 
 #landingSplit {
-  border-width: 12px;
+  border-width: 0.75em;
   width: 10%;
-  border-radius: 5px;
+  border-radius: 0.5em;
   border-color: white;
 }
 
 #landingSlogan {
-  font-size: 35px;
-  padding-bottom: 10px;
+  font-size: 2.2em;
+  padding-bottom: 0.2em;
   transform: skewX(8deg);
 }
 
 .button {
-  font-size: 25px;
-  border-radius: 12px;
+  font-size: 1.5em;
+  border-radius: 0.5em;
   background-color: transparent;
-  border: 4px solid white;
+  border: 0.16em solid white;
 }
 
 .buttonsLanding {
@@ -76,8 +77,8 @@ label {
 
 #midButton {
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
 }
 
 a:hover {
@@ -90,21 +91,14 @@ a:hover {
 
 .leftSide, .rightSide {
   height: 100vh;
-  widht: 100%
-}
-
-.rightSide {
-  padding-top: 5%;
-}
-
-.leftSide {
-  padding-top: 5%;
+  width: 100%;
+  padding-top: 2.2%;
 }
 
 .contentHeading {
   color: #6AC9E5;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 5em;
   text-align: center;
   padding-top: 5%;
 }
@@ -114,14 +108,27 @@ a:hover {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 30px;
+  font-size: 1.9em;
 }
 
 .panelImage {
   height: 90%;
   width: 60%;
-  border: 4px solid #6AC9E5;
-  border-radius: 4px;
+  border: 0.19em solid #6AC9E5;
+  border-radius: 0.19em;
+}
+
+#jaLogo {
+  margin-top: 8em;
+  border: none;
+  height: 25%;
+  width: 60%;
+}
+
+#stroLogo {
+  border: none;
+  height: 40%;
+  width: 25%;
 }
 
 #ourProducts {
@@ -129,7 +136,7 @@ a:hover {
 }
 
 #rightImage {
-  border: 4px solid white;
+  border: 0.19em solid white;
 }
 
 #rightContent {
@@ -146,15 +153,15 @@ a:hover {
 
 .largeField {
   background: rgb(190,190,190, 0.4);
-  border-radius: 8px;
-  border: 8px solid transparent;
+  border-radius: 0.38em;
+  border: 0.38em solid transparent;
   width: 60%;
 }
 
 .smallField {
   background: rgb(190,190,190, 0.4);
-  border-radius: 8px;
-  border: 8px solid transparent;
+  border-radius: 0.38em;
+  border: 0.38em solid transparent;
   width: 30%;
 }
 
@@ -164,10 +171,10 @@ a:hover {
 }
 
 #submitButton {
-  font-size: 20px;
-  border-radius: 10px;
+  font-size: 1.5em;
+  border-radius: 0.4em;
   background-color: transparent;
-  border: 2px solid #6AC9E5;
+  border: 0.13em solid #6AC9E5;
   color: #6AC9E5;
   font-weight: bold;
 }
