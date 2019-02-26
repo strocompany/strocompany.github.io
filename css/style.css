@@ -2,6 +2,16 @@
 /*----- CSS Styles -----*/
 /*---------------------*/
 
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+  body {
+    font-size: 2em;
+  }
+}
+
 body {
   font-family: "Poppins", "Oswald", sans-serif;
   color: white;
