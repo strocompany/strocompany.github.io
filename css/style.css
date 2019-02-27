@@ -188,3 +188,8 @@ a:hover {
   width: 2%;
   height: 4%;
 }
+
+#clickHere {
+  color: white;
+  text-decoration: underline;
+}
