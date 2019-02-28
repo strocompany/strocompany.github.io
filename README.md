@@ -1,6 +1,6 @@
 # strocompany.github.io
 
-company website under development: www.stroja.co
+company website for stro (a junior achievement company): www.stroja.co
 
 created by @karmdesai for @strocompany
 
