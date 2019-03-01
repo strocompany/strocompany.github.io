@@ -111,6 +111,11 @@ a:hover {
   font-size: 1.9em;
 }
 
+#eventDetails {
+  font-size: 1.5em;
+  text-align: left;
+}
+
 .panelImage {
   height: 90%;
   width: 60%;
@@ -192,4 +197,13 @@ a:hover {
 #clickHere {
   color: white;
   text-decoration: underline;
+}
+
+#furDetails {
+  color: #6AC9E5;
+  text-decoration: underline;
+}
+
+.rightBackground {
+  background-color: #6AC9E5;
 }
