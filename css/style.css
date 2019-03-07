@@ -210,12 +210,12 @@ a:hover {
 
 @media screen and (max-width: 1020px) {
   .panelsChild, .panelsParent, .leftSide, .rightSide, .col {
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 100%;
   }
 
   .panelImage {
-    display: none;
+
   }
 
 }
