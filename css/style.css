@@ -108,7 +108,7 @@ a:hover {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 1.9em;
+  font-size: 0.9em;
 }
 
 #eventDetails {
@@ -213,4 +213,6 @@ a:hover {
     width: 200%;
     height: auto;
   }
+
+
 }
