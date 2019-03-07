@@ -98,7 +98,7 @@ a:hover {
 .contentHeading {
   color: #6AC9E5;
   font-weight: bold;
-  font-size: 2.7em;
+  font-size: 5em;
   text-align: center;
   padding-top: 5%;
 }
@@ -108,7 +108,7 @@ a:hover {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 0.9em;
+  font-size: 1.9em;
 }
 
 #eventDetails {
@@ -214,8 +214,19 @@ a:hover {
     height: 100%;
   }
 
-  .panelImage {
-
+  .contentInfo, #eventDetails {
+    font-size: 0.9em;
   }
 
+  .contentHeading {
+    font-size: 2em;
+  }
+
+  #landingTitle {
+    font-size: 3em;
+  }
+
+  #landingSlogan {
+    font-size: 1.1em;
+  }
 }
