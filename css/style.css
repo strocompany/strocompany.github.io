@@ -207,3 +207,11 @@ a:hover {
 .rightBackground {
   background-color: #6AC9E5;
 }
+
+@media screen and (max-width: 1020px) {
+  .panelsChild, .panelsParent, .leftSide, .rightSide {
+    float: none;
+    width: auto;
+    height: auto;
+  }
+}
