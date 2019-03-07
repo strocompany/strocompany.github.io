@@ -209,9 +209,8 @@ a:hover {
 }
 
 @media screen and (max-width: 1020px) {
-  .panelsChild, .panelsParent, .leftSide, .rightSide {
-    float: none;
-    width: auto;
+  .panelsChild, .panelsParent, .leftSide, .rightSide, .col {
+    width: 100%;
     height: auto;
   }
 }
