@@ -209,7 +209,7 @@ a:hover {
 }
 
 @media screen and (max-width: 720px) {
-  .col, .row {
+  .col {
     width: 100%;
     height: 100%;
   }
@@ -235,7 +235,7 @@ a:hover {
   }
 
   #midButton {
-    padding-left: 2.5em;
+    padding-left: 2.45em;
     padding-right: 3em;
   }
 
