@@ -235,8 +235,10 @@ a:hover {
   }
 
   #midButton {
-    padding-left: 3em;
+    padding-left: 2.5em;
     padding-right: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
 
 }
