@@ -234,4 +234,9 @@ a:hover {
     font-size: 1.1em;
   }
 
+  #midButton {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
 }
