@@ -1,7 +1,7 @@
 # strocompany.github.io
 
-company website: www.stroja.co
+Stro is part of the ‘Company Program,’ which is run by an international organization called Junior Achievement (JA). The program introduces high-school students to entrepreneurship by giving them the resources necessary to start their own business. Our Junior Achievement company is called ‘Stro,’ and our objective is to reduce plastic waste in the ocean by manufacturing and selling reusable straws. 
 
-created by @karmdesai for @strocompany
+This website was created by @karmdesai for @strocompany and was completed on March 7, 2019.
 
-
+**Website Link:** http://stroja.co
